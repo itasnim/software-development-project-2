@@ -7,26 +7,24 @@
     <title>Room Rent Application</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
-    <!--[if lt IE 9]>
+    
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
 </head>
 
 <body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="ad1.js"></script>
 
 
-<!DOCTYPE html>
-<html>
-
-
-<body>
 
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container1">
+  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
         <span class="icon-bar"></span>
@@ -38,30 +36,51 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT</a></li>
+     	<li><a href="#signin">ADD RENT</a></li>
+        <li><a href="#login">LOGOUT</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-
+<!-- first -->
 <div class="jumbotron text-center">
-  <h1><img src="logo.png">RoomRentApp</h1>
-</div>   
+  <h1><img src="logo.png">RoomRentApp
+   
   </h1>
 
 
- 
+<div class="container">
+	<div class="row">
+		<div id="custom-search-input">
+                            <div class="input-group col-md-12">
+                                <input type="text" class="  search-query form-control" placeholder="Search" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+        </div>
+	</div>
+</div>
+</div>
+<!--second-->
 
-   <div class="container_img">
-       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <div class="container">
+
+        <div class="col-sm-6">
+            <div class="container_img">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                        </ol>
 
              <div class="carousel-inner" role="listbox" >
                  <div class="item active">
@@ -105,8 +124,41 @@
                 </a>
         </div>
   </div>
-</body>
-</html>
+</div>
+
+<div class="container_content">
+<div class="row-justify-content-start">
+    <div class="col-sm-6" >
+                <h2>Rent an apartment close to seabeach for 550€/kk; <strong> number: 01234</strong></h2>
+                
+                <p>  
+                Description: Located in a calm area of Oulu, close to Nallikari sea beach. It is a really good place for enjoying sunny summerdays as well as <br>
+                chilli winter days. Bus stop is 500m far from the house. Heated car parking available. Pets not allowed.<br>
+                Semi furnished.
+                </p>
+                <h5>Address:Lipporanta 2 A 1, 90570-Oulu, Finland</h5>
+                <br>
+                <p>Renter:Private Owner <br>
+                Area: 49m²</p>
+                <h3>Rent: 550€/kk</h3>
+                
+               
+                
+                <div class="btn-group btn-group-lg">
+                        <a href="file:///C:/Users/iffat/softwaredevproject2/contact.html">
+                        <button type="button" class="btn btn-primary">
+                        Contact
+                        </button>
+                        </a>
+                </div>
+                <br>
+    </div>
+</div>
+</div>
+
+        
+
+</div>
 
 
 <!--footer-->
@@ -129,7 +181,7 @@
             <!--Copyright-->
                 <div class="footer-copyright text-center">
                     <div class="container-fluid">
-                        <h3 > © 2017 Copyright: <a href="#"> RoomRentApplication.com </a> </h3>
+                        <h3> © 2017 Copyright: <a href="#"> RoomRentApplication.com </a> </h3>
 
                     </div>
                 </div>

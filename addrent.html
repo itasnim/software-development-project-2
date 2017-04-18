@@ -35,7 +35,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="file:///C:/Users/iffat/softwaredevproject2/about.html">ABOUT</a></li>
      	<li><a href="#signup">LOGOUT</a></li>
-        <li><a href="file:///C:/Users/iffat/softwaredevproject2/addrent.html">ADD RENT</a></li>
+        <li><a href="file:///C:/Users/iffat/softwaredevproject2/contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -47,56 +47,57 @@
 </div>
 <!-- first -->
 
+<nav class=" navbar-default">
+    <div class="container-fluid">
+    <form>
+            <div class="form-group">
+                <label for="username">User Name:</label>
+                <input type="username" class="form-control" id="exampleInputusername" placeholder="Enter Username">
+            </div>
 
-<div class="cotainer_content">
+            <div class="form-group">
+                <label for="userid">User Id:</label>
+                <input type="userid" class="form-control" id="exampleInputuserid" placeholder="Enter your UserId">
+            </div>
 
-	               
-	          
-				<div class="main-login main-center">
-                    <div class="panel-title text-center">
-	               		<h2 class="title"><strong>Contact form</strong></h2>
-	               	</div>
+            <div class="form-group">
+            <label for="exampleInputStreetAddress">Street Address</label>
+            <input type="streetaddress" class="form-control" id="exampleInputstreetaddress" placeholder="Enter Streetaddress">
 
-					<form class="form-horizontal" method="post" action="#">
-						
-						<div class="form-group">
-							<label for="name" class="cols-sm-2 control-label">Reference Number</label>
-							<div class="cols-sm-10">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="name" id="name"  placeholder="Reference Number"/>
-								</div>
-							</div>
-						</div>
+            <label for="exampleInputPostalCode">Postal Code</label>
+            <input type="postalcode" class="form-control" id="exampleInputpostalcode" placeholder="Enter Postalcode">
 
-				        <div class="form-group">
-							<label for="username" class="cols-sm-2 control-label">Subject</label>
-							<div class="cols-sm-10">
-								<div class="input-group">
-									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-									<input type="text" class="form-control" name="username" id="username"  placeholder="Subject"/>
-								</div>
-							</div>
-						</div>
+            <label for="exampleInputCity">City</label>
+            <input type="city" class="form-control" id="exampleInputcity" placeholder="Enter City">
+            </div>
 
-						<div class="form-group">
-                         
-							<label for="password" class="cols-sm-2 control-label">Body</label>
-							<div class="cols-sm-10">
-								<div class="input-group">
-                                    <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-								<textarea class="form-control" id="body" rows="5" placeholder="Enter Text"></textarea>
-								</div>
-							</div>
-						</div>
+            <div class="form-group">
+                <label for="areadescription">Area Description</label>
+                <textarea class="form-control" id="areadescription" rows="5" placeholder="Enter Description"></textarea>
+            </div>
 
-						<div class="form-group ">
-							<button type="button" class="btn btn-primary btn-lg btn-block login-button">Send</button>
-						</div>
-					</form>
-				</div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="price" class="form-control" id="exampleInputprice" placeholder="Enter Price">
+            </div>
 
-</div>
+            <div class="form-group">
+                <label for="exampleUploadImage">Upload Image</label>
+                <input type="image" class="form-control-image" id="exampleuploadimage"> </br>
+                <small id="fileHelp" class="form-text text-muted">Select intended image by browsing</small>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">
+                All information are correct
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+</nav>
+
 
 <!--footer-->
 <div class="container footerposition">
